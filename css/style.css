@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding: 80px 0px;
+}
+.container{
+    width: 1140;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0px auto;
+}
+header#main-header {
+    height: 600px;
+    background: #fcdb00;
+}
+.logo-area {
+    width: 20%;
+    float: left;
+    padding-top: 40px;
+}
+
+.menu-bar {
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+}
+.menu-area {
+    width: 100%;
+    height: 100px;
+}
+ul.main-bar li a {
+    text-decoration: none;
+    color: #010101;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+ul.main-bar li a:hover{
+    color: #6a78a9;
+}
+ul.main-bar li {
+    list-style-type: none;float: left;
+    margin-left: 55px;
+}
+section#our-features {
+    height: 480px;
+}
+.header-content {
+    margin-top: 8%;
+    display: flex;
+}
+.left-content h2 {
+    margin-bottom: 20px;
+    color: #010101;
+    font-weight: 800;
+}
+
+.left-content h4 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #313841;
+    line-height: 24px;
+}
+
+.left-content {
+    width: 38%;
+}
+
+.left-content p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 20px;
+}
+.left-icons {
+    margin-top: 30px;
+}
+.left-icons a {
+    text-decoration: none;
+    color: #010101;
+    transition: all 0.3s ease;
+}
+.left-icons a:hover{
+    color: #6a78a9;
+}
+.left-icons i {
+    font-size: 35px;
+    margin-right: 20px;
+}
+.right-content {
+    width: 35%;
+    margin-top: -5%;
+    margin-left: 23%;
+}
+
+.right-content img {
+    width: 80%;
+}
+.sec-title {
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.sec-title h2 {
+    color: #010101;
+    margin-bottom: 10px;
+}
+
+.sec-title p {
+    color: #313841;
+    line-height: 20px;
+}
+.features-start {
+    display: flex;
+    margin-top: 80px;
+}
+.single-icon i {
+    font-size: 35px;
+    color: #010101;
+    transition: all 0.3s ease;
+}
+
+.single-content h3 {
+    font-weight: 400;
+    color: #010101;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+.single-feature:hover i {
+    color: #fcdb00;
+}
+
+.single-feature:hover h3 {
+    color: #fcdb00;
+}
+.single-feature {
+    display: flex;
+    width: 26%;
+    margin-left: 50px;
+}
+
+.single-content p {
+    font-size: 14px;
+    color: #898989;
+}
+
+.single-content {
+    margin-left: 25px;
+    cursor: pointer;
+}
+footer#last-footer {
+    height: 550px;
+    background: #010101;
+    padding-top: 80px;
+}
+
+footer#last-footer .sec-title h2 {
+    color: #fcdb00;
+}
+
+footer#last-footer .sec-title p {
+    color: #898989;
+    font-size: 16px;
+}
+.submit-area {text-align: center;margin-top: 35px;}
+
+.submit-area input {
+    border-radius: 3px;
+    border: none;
+    color: #898989;
+    padding-right: 270px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+button#submit {
+    border: none;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    background: #fcdb00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button#submit:hover{
+    background: #ffffff;
+}
+.footer-icons {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+
+.footer-icons a i {
+    height: 30px;
+    width: 35px;
+    background: #fcdb00;
+    line-height: 30px;
+    border-radius: 3px;
+    color: #010101;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+}
+.footer-icons a i:hover{
+    background: #ffffff;
+}
+
+.footer-last-part {
+    margin-top: 14%;
+    display: flex;
+}
+.our-address p{
+    color: #ffffff;
+}
+.our-address {
+    line-height: 25px;
+    width: 22%;
+    font-size: 14px;
+}
+.our-last-content {
+    width: 10%;
+    margin-left: 90px;
+}
+
+.our-last-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.our-last-content a:hover{
+    color: #fcdb00;
+}
+.our-last-content li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+
